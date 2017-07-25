@@ -39,6 +39,7 @@ ScribeJava support out-of-box several HTTP clients:
 * Box (https://www.box.com/)
 * Digg (http://digg.com/)
 * Доктор на работе (https://www.doktornarabote.ru/)
+* Etsy (https://www.etsy.com/)
 * Facebook (https://www.facebook.com/)
 * Flickr (https://www.flickr.com/)
 * Foursquare (https://foursquare.com/)
@@ -100,7 +101,7 @@ You can pull ScribeJava from the central maven repository, just add these to you
 <dependency>
     <groupId>com.github.scribejava</groupId>
     <artifactId>scribejava-apis</artifactId>
-    <version>4.1.2</version>
+    <version>4.2.0</version>
 </dependency>
 ```
 
@@ -109,7 +110,7 @@ And in case you need just core classes (that's it, without any external API (FB,
 <dependency>
     <groupId>com.github.scribejava</groupId>
     <artifactId>scribejava-core</artifactId>
-    <version>4.1.2</version>
+    <version>4.2.0</version>
 </dependency>
 ```
 
