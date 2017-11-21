@@ -1,12 +1,12 @@
-package com.github.scribejava.httpclient.okhttp;
+package com.github.scribejava.core.httpclient.jdk;
 
 import com.github.scribejava.core.AbstractClientTest;
 import com.github.scribejava.core.httpclient.HttpClient;
 
-public class OkHttpHttpClientTest extends AbstractClientTest {
+public class JDKHttpClientTest extends AbstractClientTest {
 
     @Override
     protected HttpClient createNewClient() {
-        return new OkHttpHttpClient();
+        return new JDKHttpClient();
     }
 }

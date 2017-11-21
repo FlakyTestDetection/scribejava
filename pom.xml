@@ -20,6 +20,7 @@
         <module>scribejava-httpclient-ahc</module>
         <module>scribejava-httpclient-ning</module>
         <module>scribejava-httpclient-okhttp</module>
+        <module>scribejava-httpclient-apache</module>
     </modules>
 
     <licenses>
@@ -95,6 +96,12 @@
             <version>1.11</version>
             <scope>compile</scope>
             <optional>true</optional>
+        </dependency>
+        <dependency>
+            <groupId>com.squareup.okhttp3</groupId>
+            <artifactId>mockwebserver</artifactId>
+            <version>3.9.0</version>
+            <scope>test</scope>
         </dependency>
     </dependencies>
     <build>
