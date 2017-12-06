@@ -41,5 +41,4 @@ public interface OAuthConstants {
 
     //not OAuth specific
     String USER_AGENT_HEADER_NAME = "User-Agent";
-
 }
