@@ -24,6 +24,10 @@ Working runnable examples are [here](https://github.com/scribejava/scribejava/tr
 
 Hit ScribeJava as hard and with many threads as you like.
 
+### Java 7 compatible
+
+That's it. You can use it in old environments and in android apps.
+
 ### Async and other HTTP clients
 
 ScribeJava support out-of-box several HTTP clients:
@@ -105,7 +109,7 @@ You can pull ScribeJava from the central maven repository, just add these to you
 <dependency>
     <groupId>com.github.scribejava</groupId>
     <artifactId>scribejava-apis</artifactId>
-    <version>5.1.0</version>
+    <version>5.2.0-java7again</version>
 </dependency>
 ```
 
@@ -114,7 +118,7 @@ And in case you need just core classes (that's it, without any external API (FB,
 <dependency>
     <groupId>com.github.scribejava</groupId>
     <artifactId>scribejava-core</artifactId>
-    <version>5.1.0</version>
+    <version>5.2.0-java7again</version>
 </dependency>
 ```
 

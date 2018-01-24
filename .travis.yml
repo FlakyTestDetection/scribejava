@@ -2,8 +2,7 @@ dist: trusty
 language: java
 script: mvn clean package
 jdk:
-  - oraclejdk8
-  - openjdk8
+  - openjdk7
 os:
   - linux
 before_install:
